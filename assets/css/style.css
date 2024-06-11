@@ -1,0 +1,84 @@
+/* ! basic */
+
+@font-face {
+  font-family: karla;
+  src: url(../font/Karla-VariableFont_wght.ttf);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: karla, Arial, Helvetica, sans-serif;
+  font-size: 16px;
+}
+
+body {
+  padding: 0 40px;
+}
+
+img {
+  max-width: 100%;
+}
+
+a {
+  text-decoration: none;
+  color: rgba(50, 58, 69, 1);
+}
+
+/* ! header */
+
+header {
+  color: rgba(50, 58, 69, 1);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100px;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 30px;
+  margin-bottom: ;
+}
+
+nav a {
+    padding: 5px 10px;
+}
+
+/* !main */
+
+.group1 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 40px;
+    column-gap: 20px;
+}
+
+.article1 {
+    grid-column: 1/4;
+    grid-row: 1/2
+}
+
+.details {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+main img {
+    margin-bottom: 20px;
+}
+
+main h2 {
+    font-size: 16px;
+}
+
+main span{
+    color: rgba(132, 132, 132, 1);
+}
