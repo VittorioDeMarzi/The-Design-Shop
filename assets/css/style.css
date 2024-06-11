@@ -84,3 +84,40 @@ main h2 {
 main span{
     color: rgba(132, 132, 132, 1);
 }
+
+/* ! footer */
+
+footer section {
+    display: grid;
+    grid-template-columns: 2fr 1fr 2fr 1fr;
+    gap: 30px;
+    margin-bottom: 30px;
+}
+
+footer article {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 20px;
+}
+
+footer h3 {
+   font-size: 13px; 
+}
+
+footer p, footer a {
+font-size: 12px;
+}
+
+.link {
+    font-weight: 700;
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+}
+
+footer > p {
+    color: rgba(132, 132, 132, 1);
+}
