@@ -53,11 +53,13 @@ nav a {
 
 /* !main */
 
-.group1 {
+.group {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     row-gap: 40px;
     column-gap: 20px;
+    margin-bottom: 40px;
+
 }
 
 .article1 {
